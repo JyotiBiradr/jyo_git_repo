@@ -9,5 +9,6 @@ driver.find_element_by_css_selector("input[class='first_row']").send_keys("hello
 driver.find_element_by_css_selector("input[name='fname']").send_keys("world")
 driver.find_element_by_css_selector("input[class='first_row']:nth-child(2)").send_keys("hai")#it will take next of first_or(second textbox)
 sleep(2)
+print("hi")
 driver.close()
 
